@@ -1,0 +1,23 @@
+%btn {
+  padding: 19px 17%;
+  border: none;
+  border-radius: 5px;
+  background-color: #48d494;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+
+
+
+.success-btn {
+  @extend %btn;
+  border-color: green;
+  &:hover { 
+    cursor: pointer;
+    background-color: gold;
+  }
+}
+
+
